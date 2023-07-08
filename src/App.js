@@ -1,13 +1,15 @@
 
 import './App.css';
 import { Button } from 'reactstrap';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import MyBio from './components/myBio';
 function App() {
   return (
-    <div className="App">
-       <div className="input-group mb-3">
-  <span className="input-group-text  bg-info" id="basic-addon1">Start</span>
-</div>
-    </div>
+    <BrowserRouter>
+    <Routes>
+    <Route path="/" element={<MyBio />}></Route>
+    </Routes>
+  </BrowserRouter>
   );
 }
 

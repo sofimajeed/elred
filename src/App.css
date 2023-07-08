@@ -1,33 +1,82 @@
-.App {
+.mybio-container{
+  width: 375px;
+  height: 812px;
+  border: 1px solid black;
+  padding: 1% .5%;
+  margin: auto;
+}
+.display-flex{
+  display: flex;
+  justify-content: space-between;
+  margin: 2% 0px;
+}
+.font-bold{
+  font-weight: 500;
+}
+.resume-img{
+  width: 30px;
+  height: 30px;
+}
+.submit-div{
+  background-color: #e72d38;
+  border-radius: 8px;
+  margin: 20% 0px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.blood-group{
+  margin: 3% 0px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.blood-group select{
+  width: 100%;
+  border: none;
+  padding: 1.5% 1%;
+  background-color: #f2f4f9;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title{
+  margin: 5% 0px;
+}
+.box-shadow{
+  box-shadow: 0px 0px 1px;
+}
+.submit-div button{
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 600;
+}
+.skill-set{
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+.imm{
+  width: 40px;
+  height: 40px;
+}
+.display-flex-2{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.rating{
+  background-color: grey;
+  font-size: 14px;
 }
-
+.skill-set div{
+  margin: 0px 5px;
+    background-color: #77b2ff;
+    color: white;
+    /* min-width: 200px; */
+    padding: 0px 3%;
+    min-width: 181px;
+    text-align: center;
+    border-radius: 16px;
+    height: 27px;
+}
+textarea{
+  min-height: 100px;
+  width: 100%;
+  background-color: #f2f4f9;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
